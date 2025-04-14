@@ -16,7 +16,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~Z0QD3aII#2jLYJVosedBDb1tkjkDfO0zUNU54tEKzAfvSY8KVekI' 
 //Enter your 𝗠𝗶𝗱𝗞𝗕𝗮𝗻-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
