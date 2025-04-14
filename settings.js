@@ -17,31 +17,31 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //--------------------[ SESSION ID ]----------------------//
 
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
+//Enter your 𝗠𝗶𝗱𝗞𝗕𝗮𝗻-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿' 
+global.botname = process.env.BOT_NAME || '𝗠𝗶𝗱𝗞𝗕𝗮𝗻-𝙓𝙈𝘿' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '263716729222' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'Joshuamambo EcounBan' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿" 
+global.packname = process.env.STICKER_PACK_NAME || "𝗠𝗶𝗱𝗞𝗕𝗮𝗻-𝙓𝙈𝘿" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Joshuamambo" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Accra" 
+global.timezones = process.env.TIMEZONE || "Africa/Gweru" 
 //Don't edit this if you don't know!
 
 //----------------[ GITHUB DATABASE ]-----------------//
@@ -54,17 +54,17 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
+global.plink = process.env.PLINK || "https://youtube.com/@joshuamambo1"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿"
+global.wm = process.env.GL_WM || "> ©𝗠𝗶𝗱𝗞𝗕𝗔𝗻-𝙓𝙈𝘿"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '> © 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿', 
+  success: '> © 𝗠𝗶𝗱𝗞𝗕𝗮𝗻-𝙓𝙈𝘿', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
